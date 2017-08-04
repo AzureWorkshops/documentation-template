@@ -1,18 +1,42 @@
 {
-    "title": "Azure AD Connect",
+    "title": "<name your workshop>",
     "tagline": "Azure Workshops",
-    "author": "Joshua Davis",
+    "lead": "<one sentence elevator pitch of the workshop>",
+    "description": "<short description of the workshop>",
+    "learn": [
+        "<comma-separated list of topics that will be covered>",
+        "topic 1",
+        "topic 2",
+        "topic 3"
+    ],
+    "audience": [
+        "<comma-separated list of recommended audience. examples follow:>",
+        "CISOs and VPs of Information Security",
+        "CIOs",
+        "IT Managers",
+        "Active Directory and Network Admins"
+    ],
+    "author": "<your first and last name>",
     "timezone": "America/New_York",
     "format": "html",
+    "processor": "Processor",
     "html": {
-        "theme": "daux-blue",
+        "theme": "azure-white",
         "float": false,
         "search": false,
         "toggle_code": false,
         "breadcrumbs": true,
+        "breadcrumb_separator": " / ",
         "date_modified": true,
         "twitter": [
-            "a11smiles"
+            "azureworkshops"
+        ],
+        "buttons": [
+            {
+                "name": "<name button (e.g. PowerPoint) NOTE: buttons are OPTIONAL. You can even add multiple buttons if you'd like.  If you do no want additional buttons, then remove the 'buttons': [...] section and the comma at the end of the line above buttons. >",
+                "icon": "<font-awesome icon class for button. refer to http://fontawesome.io/icons/ and search for icon, then copy/paste class here. (e.g. fa-file-powerpoint-o)>",
+                "url": "<url (include http or https) to resource>"
+            }
         ]
     }
 }
